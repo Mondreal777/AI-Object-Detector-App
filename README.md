@@ -1,15 +1,24 @@
-# AI Object Detection App
-This project is a simple web application built with Vue.js that allows users to upload an image and detect objects within it using a pre-trained machine learning model. The application leverages TensorFlow.js and the COCO-SSD model to identify and label objects in the uploaded image. Key features include:
+# 🖼️ AI Object Detection App
 
-- Image Upload: Users can upload an image file from their device.
-- Object Detection: The app uses the COCO-SSD model to detect objects in the uploaded image.
-- Bounding Boxes: Detected objects are highlighted with bounding boxes and labels overlaid on the image.
-- Progress Indicator: A progress bar is displayed while the image is being processed to enhance user experience.
-- Results Display: A list of detected objects with their class names and confidence scores is shown below the image.
+Welcome to the **AI Object Detection App**! This is a simple yet powerful web application built with **Vue.js** that enables users to upload images and detect objects within them using a pre-trained machine learning model. The app integrates **TensorFlow.js** and the **COCO-SSD** model to identify and label objects, demonstrating how modern web development can be combined with machine learning.
 
-The project demonstrates the integration of Vue.js with TensorFlow.js for real-time object detection, making it an excellent example of combining modern web development techniques with machine learning capabilities.
+## ✨ Features
+- **Image Upload**: Users can easily upload an image from their device to be analyzed.
+- **Object Detection**: The application uses the COCO-SSD model to detect various objects within the uploaded image.
+- **Bounding Boxes**: Detected objects are highlighted with bounding boxes and labels directly on the image.
+- **Progress Indicator**: A progress bar ensures smooth user experience by displaying the status while the image is being processed.
+- **Results Display**: Lists all detected objects with their class names and confidence scores, providing users with detailed information.
 
-## Project setup
+## 🛠️ Technology Stack
+- **Frontend**: Vue.js
+- **Machine Learning**: TensorFlow.js, COCO-SSD Model
+- **Programming Language**: JavaScript
+
+## 🚀 Getting Started
+
+Follow these instructions to set up the project on your local machine:
+
+### Project Setup
 ```
 npm install
 ```
